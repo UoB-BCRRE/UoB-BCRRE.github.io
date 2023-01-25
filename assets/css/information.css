@@ -1,0 +1,36 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background-color: #2c2c2c;
+}
+
+.information .entry {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.information table {
+    width: 90%;
+    height: 75%;
+}
+
+.information table tr {
+    vertical-align: center;
+}
+
+.information table td {
+    vertical-align: center;
+    font-size: 2em;
+    font-family: transportLight, sans-serif;
+    color: #ffffff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
