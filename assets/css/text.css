@@ -1,0 +1,47 @@
+@font-face {
+    font-family: transportMedium;
+    src: url("../fonts/transportMedium.otf");
+}
+
+@font-face {
+    font-family: transportHeavy;
+    src: url('../fonts/transportHeavy.otf');
+}
+
+@font-face {
+    font-family: transportLight;
+    src: url("../fonts/transportLight.otf");
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+
+h1 {
+    position: relative;
+    font-family: transportHeavy, sans-serif;
+    font-size: 6em;
+    color: #ffce00;
+}
+
+h2 {
+    position: relative;
+    font-family: transportMedium, sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+p {
+    position: relative;
+    font-family: transportLight, sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+mark {
+    background-color: rgba(255, 206, 0, 0);
+    color: #ffce00;
+}
+
+.emphasized { font-style: italic; }

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>UKRRIN Coffee Board</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/ukrrin.css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/text.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/welcome.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/features.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/departures.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/events.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/connected_leaders.css" />
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="header">
+      <div class="header_content" id="header_content">
+        <img class="page_icon" id="page_icon" src="assets/icons/wave.png" alt="">
+        <span class="page_name" id="page_name">Welcome</span>
+      </div>
+      <div class="header_datetime">
+        <span id="date"></span>
+        <span id="time"></span>
+      </div>
+    </div>
+
+    <div id="fullpage">
+
+      <div class="section" title="Welcome" data-icon="assets/icons/wave.png">
+
+        <div class="slide">
+
+          <video class="welcome_video" loop muted data-autoplay>
+            <source src="assets/videos/tunnel.mp4" type="video/mp4">
+          </video>
+          <div class="welcome_content">
+            <img src="assets/images/logos/ukrrin-logo-white-on-grey.svg" id="ukrrin_logo"/>
+            <h2>Welcome to the <br> Centre of Excellence in Digital Systems</h2>
+          </div>
+
+        </div>
+
+        <div class="slide">
+
+          <div class="welcome_personal">
+            <p>The Birmingham Centre for Railway Research and Education offers a warm welcome to</p>
+            <img src="assets/images/delegation/colombia.svg" />
+            <h1>The Colombian Delegation</h1>
+            <p>and</p>
+            <img src="assets/images/delegation/chile.svg" />
+            <h1>The Chilean Delegation</h1>
+            <p>Please enjoy your stay!</p>
+          </div>
+
+        </div>
+
+      </div>
+
+<!--      <div class="section" title="News" data-icon="assets/icons/news.png">-->
+<!--        <div class="features">-->
+<!--          <article>-->
+<!--            <img src="assets/icons/news.png"/>-->
+<!--            <h1>Congratulations!</h1>-->
+<!--            <h2>Hello</h2>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+<!--          </article>-->
+<!--          <article>-->
+<!--            <h1>Project </h1>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+<!--          </article>-->
+<!--          <article>-->
+<!--            <h1>Project </h1>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+<!--          </article>-->
+<!--          <article>-->
+<!--            <h1>Project </h1>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+<!--          </article>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="section" title="Events" data-icon="assets/icons/news.png">-->
+<!--        <div class="events">-->
+<!--          <div class="week">-->
+<!--            <h1>This Week</h1>-->
+<!--            <table>-->
+<!--              <tr class="border-bottom">-->
+<!--                <th>Day</th>-->
+<!--                <th>Event</th>-->
+<!--                <th>Start Time</th>-->
+<!--                <th>End Time</th>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Monday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Tuesday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Wednesday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Thursday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Friday</td>-->
+<!--              </tr>-->
+<!--            </table>-->
+<!--          </div>-->
+
+<!--          <div class="week">-->
+<!--            <h1>Next Week</h1>-->
+<!--            <table>-->
+<!--              <tr class="border-bottom">-->
+<!--                <th>Day</th>-->
+<!--                <th>Event</th>-->
+<!--                <th>Start Time</th>-->
+<!--                <th>End Time</th>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Monday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Tuesday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Wednesday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Thursday</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>Friday</td>-->
+<!--              </tr>-->
+<!--            </table>-->
+<!--          </div>-->
+
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="section" title="Connected Leaders" data-icon="assets/icons/news.png">-->
+
+<!--&lt;!&ndash;        <div class="slide">&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="connected_leaders">&ndash;&gt;-->
+<!--&lt;!&ndash;            <article>&ndash;&gt;-->
+<!--&lt;!&ndash;              <img src="assets/icons/news.png"/>&ndash;&gt;-->
+<!--&lt;!&ndash;              <h1>Simulation</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;              <p>Demonstration of the Birmingham Railway Virtual Environment (BRaVE), to include current case studies and where simulation adds value to the railway system. Delegates will understand the value of simulation within the systems engineering V-curve and assess the impact of a whole-system design approach to railways.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;            </article>&ndash;&gt;-->
+<!--&lt;!&ndash;            <article>&ndash;&gt;-->
+<!--&lt;!&ndash;              <h1>Autonomous Systems</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;              <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;            </article>&ndash;&gt;-->
+<!--&lt;!&ndash;            <article>&ndash;&gt;-->
+<!--&lt;!&ndash;              <h1>Data and Cybersecurity</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;              <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;            </article>&ndash;&gt;-->
+<!--&lt;!&ndash;            <article>&ndash;&gt;-->
+<!--&lt;!&ndash;              <h1>Project </h1>&ndash;&gt;-->
+<!--&lt;!&ndash;              <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;            </article>&ndash;&gt;-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--        <div class="slide">-->
+
+<!--          <div class="connected_leaders">-->
+<!--            <table>-->
+<!--              <tr>-->
+<!--                <th></th>-->
+<!--                <th></th>-->
+<!--                <th colspan="5">Location</th>-->
+<!--              </tr>-->
+<!--              <tr class="border">-->
+<!--                <th>Time</th>-->
+<!--                <th>Description</th>-->
+<!--                <th>Group 1</th>-->
+<!--                <th>Group 2</th>-->
+<!--                <th>Group 3</th>-->
+<!--                <th>Group 4</th>-->
+<!--                <th>Group 5</th>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>09:00</td>-->
+<!--                <td>Welcome</td>-->
+<!--                <td colspan="5">UKRRIN Seminar Room</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>10:00</td>-->
+<!--                <td>Session 1</td>-->
+<!--                <td class="red">Room A</td>-->
+<!--                <td class="orange">Room B</td>-->
+<!--                <td class="yellow">Room C</td>-->
+<!--                <td class="blue">Room D</td>-->
+<!--                <td class="violet">Room E</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>10:50</td>-->
+<!--                <td>Coffee Break</td>-->
+<!--                <td colspan="5">UKRRIN Breakout Space</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>11:00</td>-->
+<!--                <td>Session 2</td>-->
+<!--                <td class="violet">Room E</td>-->
+<!--                <td class="red">Room A</td>-->
+<!--                <td class="orange">Room B</td>-->
+<!--                <td class="yellow">Room C</td>-->
+<!--                <td class="blue">Room D</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>11:50</td>-->
+<!--                <td>Session 3</td>-->
+<!--                <td class="blue">Room D</td>-->
+<!--                <td class="violet">Room E</td>-->
+<!--                <td class="red">Room A</td>-->
+<!--                <td class="orange">Room B</td>-->
+<!--                <td class="yellow">Room C</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>12:45</td>-->
+<!--                <td>Luncheon</td>-->
+<!--                <td colspan="5">UKRRIN Breakout Space</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>13:30</td>-->
+<!--                <td>Session 4</td>-->
+<!--                <td class="yellow">Room C</td>-->
+<!--                <td class="blue">Room D</td>-->
+<!--                <td class="violet">Room E</td>-->
+<!--                <td class="red">Room A</td>-->
+<!--                <td class="orange">Room B</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>14:30</td>-->
+<!--                <td>Session 5</td>-->
+<!--                <td class="orange">Room B</td>-->
+<!--                <td class="yellow">Room C</td>-->
+<!--                <td class="blue">Room D</td>-->
+<!--                <td class="violet">Room E</td>-->
+<!--                <td class="red">Room A</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>15:30</td>-->
+<!--                <td>Tea Break</td>-->
+<!--                <td colspan="5">UKRRIN Breakout Space</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>15:45</td>-->
+<!--                <td>Closing Session</td>-->
+<!--                <td colspan="5">UKRRIN Seminar Room</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>16:45</td>-->
+<!--                <td>Pub</td>-->
+<!--                <td colspan="5">You Decide!</td>-->
+<!--              </tr>-->
+<!--            </table>-->
+<!--          </div>-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+
+      <div class="section" id="departures" title="Departures" data-icon="assets/icons/train.png">
+        <div class="slide">
+          <iframe class="iframe" src="https://tiger.worldline.global/UNVRSYB/cisds;graphic=1"></iframe>
+        </div>
+        <div class="slide">
+          <iframe class="iframe" src="https://tiger.worldline.global/BHAMNWS/cisds;graphic=1"></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/js/fullpage.js"></script>
+    <script type="text/javascript">
+      var deleteLog = false;
+      const carousel_time = 15000
+      var carousel_timer
+
+      const myFullpage = new fullpage('#fullpage', {
+        css3: true,
+        continuousVertical: true,
+        continuousHorizontal: true,
+        easing: 'easeInOutCubic',
+        controlArrows: true,
+        resetSliders: true,
+        normalScrollElements: '.iframe',
+        onLeave: function (origin, destination, direction) {
+
+          document.getElementById("page_icon").classList.add("element_fade_out")
+          document.getElementById("page_name").classList.add("element_fade_out")
+
+          animation_timer = setTimeout(function () {
+            document.getElementById("page_icon").classList.remove("element_fade_out")
+            document.getElementById("page_name").classList.remove("element_fade_out")
+            document.getElementById("page_icon").src = destination.item.dataset.icon
+            document.getElementById("page_name").innerHTML = destination.item.title
+            document.getElementById("page_icon").style.opacity = 0
+            document.getElementById("page_name").style.opacity = 0
+          }, 500)
+
+        },
+        afterLoad: function (origin, destination, direction) {
+
+          // document.getElementById("page_icon").src = destination.item.dataset.icon
+          // document.getElementById("page_name").innerHTML = destination.item.title
+
+          document.getElementById("page_icon").classList.add("element_fade_in")
+          document.getElementById("page_name").classList.add("element_fade_in")
+
+          animation_timer = setTimeout(function () {
+            document.getElementById("page_icon").classList.remove("element_fade_in")
+            document.getElementById("page_name").classList.remove("element_fade_in")
+            document.getElementById("page_icon").style.opacity = 1
+            document.getElementById("page_name").style.opacity = 1
+          }, 500)
+
+          clearTimeout(carousel_timer)
+          carousel_timer = setTimeout(move_section, carousel_time)
+
+        },
+        afterSlideLoad: function (origin, destination, direction) {
+          clearTimeout(carousel_timer)
+          carousel_timer = setTimeout(move_section, carousel_time)
+        }
+      });
+
+      // $(document).ready(function(){
+      //     $("iframe").on("load", function(){
+      //         $(this).contents().on("mousedown, mouseup, click, keydown, keyup", function(){
+      //             console.log('Key Pressed')
+      //             clearTimeout(carousel_timer)
+      //             carousel_timer = setTimeout(move_section, carousel_time)
+      //         });
+      //     });
+      // });
+
+      document.onkeydown = function (e) {
+        clearTimeout(carousel_timer)
+        carousel_timer = setTimeout(move_section, carousel_time)
+      }
+
+      document.onmousemove = function (e) {
+        clearTimeout(carousel_timer)
+        carousel_timer = setTimeout(move_section, carousel_time)
+      }
+
+      // window.addEventListener('blur', () => {
+      //     if (document.activeElement === document.querySelector('iframe')) {
+      //         console.log('Clicked')
+      //         clearTimeout(carousel_timer)
+      //         carousel_timer = setTimeout(move_section, carousel_timer)
+      //     }
+      // })
+
+      // document.querySelector('iframe').addEventListener('keydown', function (e) {
+      //     clearTimeout(carousel_timer)
+      //     carousel_timer = setTimeout(move_section, carousel_time)
+      // });
+
+      // document.onmouseover = function (e) {
+      //     console.log('Key Pressed')
+      //     clearTimeout(carousel_timer)
+      //     carousel_timer = setTimeout(move_section, carousel_time)
+      // };
+
+      document.ontouchstart = function (e) {
+        clearTimeout(carousel_timer)
+        carousel_timer = setTimeout(move_section, carousel_time)
+      };
+
+      function move_section() {
+
+        var sectionItem = fullpage_api.getActiveSection().item;
+        var numslides = sectionItem.querySelectorAll(".fp-slide").length
+
+        if (numslides === 1) {
+          myFullpage.moveSectionDown()
+        } else {
+          slide = fullpage_api.getActiveSlide()
+          console.log(slide.index)
+          if (slide.index === (numslides - 1)) {
+            myFullpage.moveSlideRight()
+            myFullpage.moveSectionDown()
+          } else {
+            myFullpage.moveSlideRight()
+          }
+        }
+
+      }
+
+    </script>
+    <script>
+      function date() {
+        var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
+        var dt = new Date();
+        document.getElementById("date").innerHTML = dt.toLocaleDateString("en-UK", options);
+      }
+      setInterval(date, 1000)
+    </script>
+    <script>
+      function time() {
+        var dt = new Date();
+        document.getElementById("time").innerHTML = dt.toLocaleTimeString();
+      }
+      setInterval(time, 1000);
+    </script>
+
+
+    </body>
+</html>
