@@ -32,6 +32,13 @@ h2 {
     color: #ffffff;
 }
 
+h3 {
+    position: relative;
+    font-family: transportMedium, sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+}
+
 p {
     position: relative;
     font-family: transportLight, sans-serif;
