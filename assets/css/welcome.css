@@ -49,10 +49,13 @@
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 .welcome_personal img {
-    width: 33%;
+    width: 50%;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .welcome_personal p {
@@ -61,5 +64,5 @@
 }
 
 .welcome_personal h1 {
-    font-size: 4em;
+    font-size: 6em;
 }
