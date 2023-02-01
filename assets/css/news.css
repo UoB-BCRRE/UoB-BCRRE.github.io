@@ -73,7 +73,23 @@
     /*box-shadow: 0px -2px 2px rgba(34,34,34,0.6);*/
 }
 
-/*.features article .image img {*/
-/*    border-radius: 5px 5px 0 0;*/
-/*    width: 100%;*/
-/*}*/
+.news .staff {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.news .staff img {
+    object-fit: cover;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.news .staff h1 {
+    /*width: 80%;*/
+    font-size: 1.5em;
+}

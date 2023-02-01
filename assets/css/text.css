@@ -45,3 +45,23 @@ mark {
 }
 
 .emphasized { font-style: italic; }
+
+#red {
+    color: #DC267F;
+}
+
+#orange {
+    color: #FE6100;
+}
+
+#yellow {
+    color: #FFB000;
+}
+
+#blue {
+    color: #648FFF;
+}
+
+#violet {
+    color: #785EF0;
+}
