@@ -12,7 +12,7 @@
 
 .connected_leaders h1 {
     width: 75%;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .connected_leaders p {
@@ -51,11 +51,11 @@
 }
 
 .connected_leaders .overview .theme h1 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .connected_leaders .overview .theme p {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .connected_leaders .business_card {
