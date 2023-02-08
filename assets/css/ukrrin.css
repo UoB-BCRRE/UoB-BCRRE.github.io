@@ -72,7 +72,7 @@ html {
     position: relative;
     z-index: 9;
     width: 100%;
-    height: 10%;
+    height: 0;
     font-family: transportLight, sans-serif;
 }
 
