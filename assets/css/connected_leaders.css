@@ -1,13 +1,13 @@
 .connected_leaders {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
     justify-content: center;
-    gap: 1em;
+    align-items: center;
+    /*gap: 1em;*/
     background-color: #2c2c2c;
     width: 100%;
-    height: 80%;
+    height: 90%;
 }
 
 .connected_leaders h1 {
@@ -27,15 +27,15 @@
 
 .connected_leaders .overview {
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    position: relative;
     justify-content: center;
+    align-items: center;
     gap: 1em;
     background-color: #2c2c2c;
     width: 100%;
-    height: 90%;
+    height:100%;
 }
 
 .connected_leaders .overview .theme {
