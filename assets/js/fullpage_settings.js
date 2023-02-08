@@ -1,5 +1,5 @@
 var deleteLog = false;
-const carousel_time = 120000
+const carousel_time = 12000
 var carousel_timer
 
 const myFullpage = new fullpage('#fullpage', {
