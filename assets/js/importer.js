@@ -11,11 +11,11 @@ $(function(){
 });
 
 $(function(){
-    $("#cafe_ukrrin").load("files/cafe_ukrrin.html");
+    $("#cafe_ukrrin").load("files/social.html");
 });
 
 $(function(){
-    $(".welcome_personal").load("files/welcome.html");
+    $(".welcome_personal").load("files/welcome_personal.html");
 });
 
 
