@@ -5,9 +5,12 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: space-evenly;
-    background-color: #2c2c2c;
     width: 100%;
     height: 90%;
+}
+
+.events h1 {
+    color: var(--c4);
 }
 
 .events .week {
@@ -28,19 +31,16 @@
 }
 
 .week table tr.border-bottom {
-    border-bottom: 0.2em solid #ffce00;
-    /*border-bottom-color: #ffce00;*/
+    border-bottom: 0.2em solid var(--a2);
 }
 
 .week table th {
-    font-family: transportMedium, sans-serif;
     font-size: 2em;
-    color: #ffce00;
+    color: var(--c4);
     text-align: left;
 }
 
 .week table td {
-    font-family: transportLight, sans-serif;
     font-size: 2em;
     color: #ffffff;
     text-align: left;

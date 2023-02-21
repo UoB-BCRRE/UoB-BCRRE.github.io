@@ -1,9 +1,9 @@
-#header{
+.header{
     position: relative;
     z-index: 9;
     width: 100%;
     height: 10%;
-    font-family: transportLight, sans-serif;
+    font-family: fsalbert, sans-serif;
 }
 
 .header_content{
@@ -13,7 +13,7 @@
     flex-direction: row;
     gap: 2%;
     align-items: center;
-    background-color: #ffce00;
+    background-color: var(--b1);
     padding-left: 1%;
 }
 
@@ -23,7 +23,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #868f98;
+    background-color: var(--b2);
     height: 20%;
     padding-left: 1%;
     padding-right: 1%;
@@ -32,7 +32,7 @@
 
 .page_icon {
     position: relative;
-    border: 3px solid black;
+    border: 3px solid var(--a4);
     border-radius: 10%;
     border-spacing: 100px;
     height: 70%;
@@ -42,7 +42,7 @@
 
 .page_name {
     position: relative;
-    color: #000000;
+    color: var(--a4);
     text-align: left;
     font-size: 3em;
     font-weight: bold;
@@ -50,7 +50,7 @@
 
 #date, #time{
     /*font-family: transportLight, sans-serif;*/
-    color: #000000;
+    color: var(--a4);
     /*line-height: 50px;*/
     font-style: italic;
     /*padding-left: 20px;*/
