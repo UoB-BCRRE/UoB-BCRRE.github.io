@@ -18,6 +18,9 @@ $(function(){
     $(".welcome_personal").load("files/welcome_personal.html");
 });
 
+$(function(){
+    $("#visitor_information").load("files/visitor_information.html");
+});
 
 // Connected Leaders
 
