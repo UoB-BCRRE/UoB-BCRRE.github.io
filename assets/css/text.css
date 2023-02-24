@@ -14,19 +14,60 @@
 }
 
 @font-face {
-    font-family: fsalbert;
-    src: url("../fonts/fsalbert_regular.otf");
+    font-family: fsalbert-regular;
+    src: url("../fonts/FSAlbert-Regular.otf");
 }
 
-h1, h2, h3, p, table {
+@font-face {
+    font-family: fsalbert-bold;
+    src: url("../fonts/FSAlbert-Bold.otf");
+}
+
+@font-face {
+    font-family: fsalbert-bolditalic;
+    src: url("../fonts/FSAlbert-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-extrabold;
+    src: url("../fonts/FSAlbert-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: fsalbert-italic;
+    src: url("../fonts/FSAlbert-Italic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-light;
+    src: url("../fonts/FSAlbert-Light.otf");
+}
+
+@font-face {
+    font-family: fsalbert-lightitalic;
+    src: url("../fonts/FSAlbert-LightItalic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-thin;
+    src: url("../fonts/FSAlbert-Thin.otf");
+}
+
+@font-face {
+    font-family: fsalbert-thinitalic;
+    src: url("../fonts/FSAlbert-ThinItalic.otf");
+}
+
+h1, h2, h3, p, table, .header {
     position: relative;
     text-align: center;
     color: var(--a4);
-    font-family: fsalbert, sans-serif;
+    font-family: fsalbert-regular, sans-serif;
 }
 
 h1 {
     font-size: 6em;
+    font-family: fsalbert-bold, sans-serif;
 }
 
 h2 {

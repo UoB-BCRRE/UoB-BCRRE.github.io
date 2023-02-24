@@ -3,7 +3,7 @@
     z-index: 9;
     width: 100%;
     height: 10%;
-    font-family: fsalbert, sans-serif;
+    font-family: fsalbert-bold, sans-serif;
 }
 
 .header_content{
@@ -49,10 +49,8 @@
 }
 
 #date, #time{
-    /*font-family: transportLight, sans-serif;*/
+    font-family: fsalbert-regular, sans-serif;
     color: var(--a4);
     /*line-height: 50px;*/
-    font-style: italic;
-    /*padding-left: 20px;*/
-    /*padding-right: 20px;*/
+    /*font-style: italic;*/
 }
