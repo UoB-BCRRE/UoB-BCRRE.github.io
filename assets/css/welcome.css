@@ -7,7 +7,6 @@
     height: 90%;
     background-size: 100% 100%;
     background-color: var(--a1); /* in case the video doesn't fit the whole page*/
-    /*background-image: !* our video *!;*/
     background-position: center;
     object-fit: cover; /*cover video background */
     z-index:-1;
@@ -23,10 +22,15 @@
     display: flex;
 }
 
-.welcome_content image {
-    z-index: 1;
+.welcome_content h1 {
+    color: var(--a4);
 }
 
+.welcome_content img {
+    z-index: 1;
+    position: relative;
+    width: 80%;
+}
 
 .welcome_personal {
     display: flex;
@@ -48,10 +52,6 @@
 
 .welcome_personal img {
     width: 50%;
-    /*background-color: rgb(136, 11, 11);*/
-    /*opacity: 50%;*/
-    /*border-radius: 3em;*/
-    /*padding: 2em;*/
 }
 
 .welcome_personal p {

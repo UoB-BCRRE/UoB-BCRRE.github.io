@@ -1,54 +1,36 @@
 $(function(){
-    $("#news").load("files/news.html");
+    $("#welcome").load("/content/welcome.html");
 });
 
 $(function(){
-    $("#information").load("files/information.html");
+    $("#news").load("/content/news.html");
 });
 
 $(function(){
-    $("#events").load("files/events.html");
+    $("#information").load("/content/information.html");
 });
 
 $(function(){
-    $("#cafe_ukrrin").load("files/social.html");
+    $("#project_stub").load("/content/lunch_and_learn/stub.html");
 });
 
+// We Are BCRRE
 $(function(){
-    $(".welcome_personal").load("files/welcome_personal.html");
+    $("#preece_joe").load("/content/we_are_bcrre/preece_joe.html");
 });
-
 $(function(){
-    $("#visitor_information").load("files/visitor_information.html");
+    $("#easton_john").load("/content/we_are_bcrre/easton_john.html");
 });
 
-// Connected Leaders
-
+// Events
 $(function(){
-    $("#cl_timetable").load("files/connected_leaders/timetable.html");
+    $("#events_ukrrin").load("content/events/ukrrin.html");
 });
-
 $(function(){
-    $("#cl_info").load("files/connected_leaders/info.html");
+    $("#events_social").load("content/events/social.html");
 });
 
+// Departures
 $(function(){
-    $("#cl_simulation").load("files/connected_leaders/simulation.html");
+    $("#departure").load("content/departures.html");
 });
-
-$(function(){
-    $("#cl_automation").load("files/connected_leaders/automation.html");
-});
-
-$(function(){
-    $("#cl_data").load("files/connected_leaders/data.html");
-});
-
-$(function(){
-    $("#cl_future_transport").load("files/connected_leaders/future_transport.html");
-});
-
-$(function(){
-    $("#cl_workforce").load("files/connected_leaders/workforce.html");
-});
-

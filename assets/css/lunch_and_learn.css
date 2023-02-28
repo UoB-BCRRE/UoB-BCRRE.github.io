@@ -1,0 +1,45 @@
+.lunch_and_learn {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    height: 85%;
+    width: 90%;
+}
+
+.lunch_and_learn .heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.lunch_and_learn .heading img {
+    width: 20%;
+}
+
+.lunch_and_learn .heading .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: flex-start;*/
+}
+
+.lunch_and_learn .heading .info h1 {
+    text-align: right;
+    font-family: fsalbert-bold, sans-serif;
+    font-size: 5em;
+    margin: 0;
+    /*margin-block-end: 0;*/
+}
+
+.lunch_and_learn .heading .info h2 {
+    text-align: right;
+    font-family: fsalbert-regular, sans-serif;
+    font-size: 4em;
+    margin: 0;
+    /*margin-block-start: 0;*/
+}

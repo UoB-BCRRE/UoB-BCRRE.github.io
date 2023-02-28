@@ -634,7 +634,7 @@
                 setAutoScrolling: setAutoScrolling
             };
 
-            //functions we want to share across files but which are not
+            //functions we want to share across content but which are not
             //mean to be used on their own by developers
             FP.shared = {
                 afterRenderActions: afterRenderActions,

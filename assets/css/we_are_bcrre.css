@@ -1,0 +1,63 @@
+.we_are_bcrre {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    height: 85%;
+    width: 90%;
+    gap: 5%;
+}
+
+.we_are_bcrre .heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.we_are_bcrre .heading img {
+    height: 12em;
+    border-radius: 50%;
+}
+
+.we_are_bcrre .heading .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: flex-start;*/
+}
+
+.we_are_bcrre .heading .info h1 {
+    text-align: left;
+    font-family: fsalbert-bold, sans-serif;
+    font-size: 5em;
+}
+
+.we_are_bcrre .heading .info h2 {
+    text-align: left;
+    font-family: fsalbert-regular, sans-serif;
+    font-size: 4em;
+}
+
+.we_are_bcrre .question {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.we_are_bcrre .question h2 {
+    font-family: fsalbert-regular, sans-serif;
+    font-size: 3em;
+    text-align: left;
+    color: var(--a2);
+}
+
+.we_are_bcrre .question p {
+    font-family: fsalbert-light, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}

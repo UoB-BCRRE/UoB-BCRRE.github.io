@@ -63,11 +63,13 @@ h1, h2, h3, p, table, .header {
     text-align: center;
     color: var(--a4);
     font-family: fsalbert-regular, sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 6em;
     font-family: fsalbert-bold, sans-serif;
+    color: var(--c4);
 }
 
 h2 {
