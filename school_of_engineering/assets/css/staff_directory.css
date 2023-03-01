@@ -1,0 +1,19 @@
+.staff_directory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 85%;
+    padding: 5%;
+}
+
+.staff_directory th {
+    font-weight: normal;
+    font-size: 2em;
+    text-align: left;
+}
+.staff_directory tr {
+    font-weight: normal;
+    text-align: left;
+    font-size: 2em;
+}

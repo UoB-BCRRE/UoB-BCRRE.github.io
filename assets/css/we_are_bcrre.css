@@ -42,11 +42,40 @@
     font-size: 4em;
 }
 
+.we_are_bcrre .fun_fact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    /*border-style: dashed;*/
+    /*border-radius: 1em;*/
+    /*border-width: 0.5em;*/
+    /*border-color: var(--a2);*/
+}
+
+.we_are_bcrre .fun_fact p {
+    text-align: left;
+    font-family: fsalbert-light, sans-serif;
+    font-size: 2em;
+}
+
+.we_are_bcrre .fun_fact img {
+    height: 10em;
+}
+
 .we_are_bcrre .question {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
+}
+
+.we_are_bcrre .question ul {
+    font-family: fsalbert-light, sans-serif;
+    font-size: 2em;
+    color: var(--a4);
 }
 
 .we_are_bcrre .question h2 {
@@ -60,4 +89,28 @@
     font-family: fsalbert-light, sans-serif;
     font-size: 2em;
     text-align: left;
+}
+
+.we_are_bcrre .contact {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.we_are_bcrre .contact .entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.we_are_bcrre .contact .entry h2 {
+    font-size: 3em;
+}
+
+.we_are_bcrre .contact .entry img {
+    width: 10em;
+    height: 10em;
 }

@@ -1,0 +1,63 @@
+:root {
+    --blue: #98bbdf;
+    --green: #bcbc7f;
+    --orange: #d5b079;
+    --red: #cc9891;
+    --deep_purple: #6b5d76;
+    --light_purple: #847890;
+    --white: #ffffff
+}
+
+html {
+    position: relative;
+    min-width: 1080px;
+    max-width: 1080px;
+    min-height: 1920px;
+    max-height: 1920px;
+    background-color: var(--deep_purple);
+}
+
+h1, h2, h3, p, table, .header {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.emphasized { font-style: italic; }
+
+/* Animations */
+
+.element_fade_out {
+    animation: fade_out 0.5s linear forwards;
+}
+
+.element_fade_in {
+    animation: fade_in 0.5s linear forwards;
+}
+
+@keyframes fade_out {
+    from { opacity: 1;}
+    to { opacity: 0;}
+}
+@keyframes fade_in {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
