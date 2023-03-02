@@ -1,0 +1,107 @@
+.we_are_bcrre {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    align-content: center;
+    height: 85%;
+    width: 90%;
+    gap: 5%;
+}
+
+.we_are_bcrre .heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.we_are_bcrre .heading img {
+    height: 12em;
+    border-radius: 50%;
+}
+
+.we_are_bcrre .heading .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: flex-start;*/
+}
+
+.we_are_bcrre .heading .info h1 {
+    text-align: left;
+    color: var(--c4);
+    font-size: 5em;
+}
+
+.we_are_bcrre .heading .info h2 {
+    text-align: left;
+    font-size: 3em;
+}
+
+.we_are_bcrre .fun_fact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.we_are_bcrre .fun_fact p {
+    text-align: left;
+    font-size: 2em;
+}
+
+.we_are_bcrre .fun_fact img {
+    height: 10em;
+}
+
+.we_are_bcrre .question {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.we_are_bcrre .question ul {
+    font-size: 2em;
+    color: var(--a4);
+}
+
+.we_are_bcrre .question h2 {
+    font-size: 3em;
+    text-align: left;
+    /*color: var(--c4);*/
+}
+
+.we_are_bcrre .question p {
+    font-size: 2em;
+    text-align: left;
+}
+
+.we_are_bcrre .contact {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.we_are_bcrre .contact .entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.we_are_bcrre .contact .entry h2 {
+    font-size: 3em;
+}
+
+.we_are_bcrre .contact .entry img {
+    width: 10em;
+    height: 10em;
+}
