@@ -1,0 +1,15 @@
+.staff {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.staff img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.staff h1 {
+    font-size: 2em;
+}

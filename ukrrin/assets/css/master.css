@@ -1,0 +1,109 @@
+:root {
+    --a1: #231f20;
+    --a2: #80c342;
+    --a3: #4d6572;
+    --a4: #e6e7e8;
+    --b1: #0c3e5f;
+    --b2: #2b6b80;
+    --b3: #a7a9ac;
+    --b4: #3a88c8;
+    --c1: #707473;
+    --c2: #406A75;
+    --c3: #61abcf;
+    --c4: #16aeb2;
+}
+
+html {
+    position: relative;
+    min-width: 1080px;
+    max-width: 1080px;
+    min-height: 1920px;
+    max-height: 1920px;
+    background-color: var(--b1);
+}
+
+@font-face {
+    font-family: fsalbert-regular;
+    src: url('/ukrrin/assets/fonts/FSAlbert-Regular.otf');
+}
+
+@font-face {
+    font-family: fsalbert-bold;
+    src: url("/ukrrin/assets/fonts/FSAlbert-Bold.otf");
+}
+
+@font-face {
+    font-family: fsalbert-bolditalic;
+    src: url("/ukrrin/assets/fonts/FSAlbert-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-extrabold;
+    src: url("/ukrrin/assets/fonts/FSAlbert-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: fsalbert-italic;
+    src: url("/ukrrin/assets/fonts/FSAlbert-Italic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-light;
+    src: url("/ukrrin/assets/fonts/FSAlbert-Light.otf");
+}
+
+@font-face {
+    font-family: fsalbert-lightitalic;
+    src: url("/ukrrin/assets/fonts/FSAlbert-LightItalic.otf");
+}
+
+@font-face {
+    font-family: fsalbert-thin;
+    src: url("/ukrrin/assets/fonts/FSAlbert-Thin.otf");
+}
+
+@font-face {
+    font-family: fsalbert-thinitalic;
+    src: url("/ukrrin/assets/fonts/FSAlbert-ThinItalic.otf");
+}
+
+h1, h2, h3, p, table, .header {
+    position: relative;
+    text-align: center;
+    color: var(--a4);
+    margin: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, th {
+    font-family: fsalbert-bold, sans-serif;
+    color: var(--c4);
+}
+
+h2 {
+    font-family: fsalbert-regular, sans-serif;
+}
+
+p, tr, ul {
+    font-family: fsalbert-light, sans-serif;
+}
+
+/* Animations */
+
+.element_fade_out {
+    animation: fade_out 0.5s linear forwards;
+}
+
+.element_fade_in {
+    animation: fade_in 0.5s linear forwards;
+}
+
+@keyframes fade_out {
+    from { opacity: 1;}
+    to { opacity: 0;}
+}
+@keyframes fade_in {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}

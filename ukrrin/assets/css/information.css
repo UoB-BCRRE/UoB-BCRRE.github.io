@@ -1,0 +1,24 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    height: 90%;
+    width: 100%;
+}
+
+.information table {
+    width: 90%;
+}
+
+.information table tr {
+    vertical-align: center;
+}
+
+.information table td {
+    vertical-align: center;
+    text-align: left;
+    font-size: 3em;
+    padding: 2em 0.5em;
+}

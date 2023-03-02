@@ -1,0 +1,7 @@
+.departure_board{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    border: none;
+    z-index: -1;
+}
