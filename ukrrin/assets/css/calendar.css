@@ -43,3 +43,8 @@
     padding-bottom: 0.5em;
     font-family: fsalbert-light, sans-serif;
 }
+
+.events img {
+    width: 50%;
+    border-radius: 2em;
+}

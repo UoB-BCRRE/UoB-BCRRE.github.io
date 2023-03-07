@@ -1,4 +1,4 @@
-var path =  '/school_of_engineering/content/'
+var path =  '/soe/content/'
 
 $(function(){
     $("#welcome").load(path + "welcome.html");
