@@ -36,6 +36,7 @@
 }
 
 .events table td {
+    vertical-align: top;
     font-size: 2em;
     color: #ffffff;
     text-align: left;
