@@ -23,7 +23,7 @@ $(function(){
     $("#preece_joe").load(path + "we_are_bcrre/preece_joe.html");
 });
 $(function(){
-    $("#easton_john").load(path + "we_are_bcrre/easton_john.html");
+    $("#mazini_achila").load(path + "we_are_bcrre/mazini_achila.html");
 });
 
 // Events
