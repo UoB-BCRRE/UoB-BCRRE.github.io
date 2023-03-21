@@ -5,6 +5,10 @@ $(function(){
 });
 
 $(function(){
+    $("#news").load(path + "news/news.html");
+});
+
+$(function(){
     $("#news").load(path + "news.html");
 });
 
@@ -31,7 +35,15 @@ $(function(){
     $("#events_ukrrin").load(path + "events/ukrrin.html");
 });
 $(function(){
-    $("#events_social").load(path + "events/social.html");
+    $("#events_social").load(path + "events/calendar.html");
+});
+
+
+$(function(){
+    $("#social_calendar").load(path + "social/calendar.html");
+});
+$(function(){
+    $("#social_clubs").load(path + "social/clubs.html");
 });
 
 // Departures
