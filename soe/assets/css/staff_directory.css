@@ -1,8 +1,9 @@
 .staff_directory {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 5%;
     width: 90%;
     height: 85%;
     padding: 5%;
@@ -11,6 +12,12 @@
 .staff_directory .column_container {
     column-count: 2;
     column-gap: 3em;
+    width: 90%;
+}
+
+.staff_directory table {
+    width: 100%;
+    position: relative;
 }
 
 .staff_directory th {
