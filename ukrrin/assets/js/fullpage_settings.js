@@ -75,18 +75,26 @@ document.onmousemove = function (e) {
 
 document.getElementById('scroll-down').addEventListener('click', function() {
     myFullpage.moveSectionDown()
+    clearTimeout(carousel_timer)
+    carousel_timer = setTimeout(move_section, carousel_time)
 });
 
 document.getElementById('scroll-up').addEventListener('click', function() {
     myFullpage.moveSectionUp()
+    clearTimeout(carousel_timer)
+    carousel_timer = setTimeout(move_section, carousel_time)
 });
 
 document.getElementById('scroll-left').addEventListener('click', function() {
     myFullpage.moveSlideLeft()
+    clearTimeout(carousel_timer)
+    carousel_timer = setTimeout(move_section, carousel_time)
 });
 
 document.getElementById('scroll-right').addEventListener('click', function() {
     myFullpage.moveSlideRight()
+    clearTimeout(carousel_timer)
+    carousel_timer = setTimeout(move_section, carousel_time)
 });
 
 // window.addEventListener('blur', () => {
