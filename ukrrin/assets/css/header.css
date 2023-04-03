@@ -60,7 +60,7 @@
 }
 
 .header .buttons .row img {
-    border-radius: 1em;
+    border-radius: 0.5em;
     background-color: var(--a4);
     height: 3em;
 }
