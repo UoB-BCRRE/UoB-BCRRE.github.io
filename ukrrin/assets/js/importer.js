@@ -1,8 +1,8 @@
 path = '/ukrrin/content/'
 
-$(function(){
-    $("#welcome").load(path + "welcome.html");
-});
+// $(function(){
+//     $("#welcome").load(path + "welcome.html");
+// });
 
 $(function(){
     $("#news").load(path + "news/news.html");
