@@ -1,5 +1,5 @@
 var deleteLog = false;
-const carousel_time = 12000
+const carousel_time = 1200000
 var carousel_timer
 
 const myFullpage = new fullpage('#fullpage', {
@@ -40,6 +40,8 @@ const myFullpage = new fullpage('#fullpage', {
             document.getElementById("page_name").style.opacity = 1
         }, 500)
 
+
+
         clearTimeout(carousel_timer)
         carousel_timer = setTimeout(move_section, carousel_time)
 
@@ -63,12 +65,29 @@ const myFullpage = new fullpage('#fullpage', {
 document.onkeydown = function (e) {
     clearTimeout(carousel_timer)
     carousel_timer = setTimeout(move_section, carousel_time)
+
 }
 
 document.onmousemove = function (e) {
     clearTimeout(carousel_timer)
     carousel_timer = setTimeout(move_section, carousel_time)
 }
+
+document.getElementById('scroll-down').addEventListener('click', function() {
+    myFullpage.moveSectionDown()
+});
+
+document.getElementById('scroll-up').addEventListener('click', function() {
+    myFullpage.moveSectionUp()
+});
+
+document.getElementById('scroll-left').addEventListener('click', function() {
+    myFullpage.moveSlideLeft()
+});
+
+document.getElementById('scroll-right').addEventListener('click', function() {
+    myFullpage.moveSlideRight()
+});
 
 // window.addEventListener('blur', () => {
 //     if (document.activeElement === document.querySelector('iframe')) {

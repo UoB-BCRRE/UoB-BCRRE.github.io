@@ -33,16 +33,36 @@
     font-size: 1.5em;
 }
 
-.header .scroll_gif {
+.header .buttons {
+    position: relative;
     display: flex;
+    /*flex-wrap: wrap;*/
     flex-direction: column;
+    align-content: center;
     justify-content: center;
-    height: 100%;
+    align-items: center;
+    /*width: 15%;*/
+    gap: 0.5em;
     padding-right: 2.5%;
 }
 
-.header .scroll_gif img {
+.header .buttons .row {
+    position: relative;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    align-content: flex-end;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*width: 15%;*/
+    gap: 0.5em;
+    padding-right: 2.5%;
+}
+
+.header .buttons img {
     border-radius: 1em;
+    background-color: var(--a4);
+    height: 3em;
 }
 
 .header .header_content .page_icon {

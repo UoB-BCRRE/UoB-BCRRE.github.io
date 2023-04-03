@@ -33,7 +33,7 @@
     font-size: 1.5em;
 }
 
-.header .scroll_gif {
+.header .buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@
     padding-right: 2.5%;
 }
 
-.header .scroll_gif img {
+.header .buttons img {
     border-radius: 1em;
 }
 
