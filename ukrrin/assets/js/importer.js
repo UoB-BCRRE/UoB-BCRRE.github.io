@@ -41,8 +41,7 @@ $(function(){
 
 $(function(){
     $("#social_calendar").load(path + "social/calendar.html");
-});
-$(function(){
+    $("#social_next").load(path + "social/next_events.html");
     $("#social_clubs").load(path + "social/clubs.html");
 });
 

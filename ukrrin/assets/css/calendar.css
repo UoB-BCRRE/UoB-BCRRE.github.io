@@ -45,6 +45,10 @@
     font-family: fsalbert-light, sans-serif;
 }
 
+.events table td img {
+    height: 0.5em;
+}
+
 .events img {
     width: 25%;
     /*border-radius: 2em;*/
