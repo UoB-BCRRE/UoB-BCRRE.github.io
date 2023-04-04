@@ -46,6 +46,11 @@
     padding-right: 2.5%;
 }
 
+.header p {
+    font-size: 1em;
+    font-family: fsalbert-bold, sans-serif;
+}
+
 .header .buttons .row {
     position: relative;
     display: flex;
