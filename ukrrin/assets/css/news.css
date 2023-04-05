@@ -53,3 +53,8 @@
     font-size: 2em;
     margin: 0;
 }
+
+.news article ul {
+    font-size: 2em;
+    color: var(--a4);
+}
