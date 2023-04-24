@@ -9,6 +9,10 @@
     padding: 5%;
 }
 
+.staff_directory h1 {
+    font-size: 4em;
+}
+
 .staff_directory .column_container {
     column-count: 2;
     column-gap: 3em;
