@@ -8,6 +8,11 @@
     --white: #ffffff
 }
 
+@font-face {
+    font-family: avenir-regular;
+    src: url('/soe/assets/fonts/AvenirLTStd-Black.otf');
+}
+
 html {
     position: relative;
     min-width: 1080px;
@@ -21,7 +26,7 @@ h1, h2, h3, p, table, .header {
     position: relative;
     text-align: center;
     color: var(--white);
-    font-family: Avenir, sans-serif;
+    font-family: avenir-regular, sans-serif;
     margin: 0;
 }
 
