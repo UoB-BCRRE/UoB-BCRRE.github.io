@@ -17,7 +17,7 @@
 }
 
 .welcome_personal img {
-    width: 75%;
+    width: 50%;
     background-color: var(--a4);
     padding: 2em;
     border-radius: 1em;
@@ -27,6 +27,8 @@
     font-size: 3em;
     width: 90%;
 }
+
+
 
 .welcome_personal h2 {
     font-size: 3em;
