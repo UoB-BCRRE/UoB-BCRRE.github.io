@@ -10,8 +10,3 @@ $(function(){
     $("#staff_directory2").load(path + "/staff_directory/floor_2.html");
     $("#staff_directory3").load(path + "/staff_directory/floor_3.html");
 });
-
-$(function(){
-    $("#events").load(path + "/events/events.html");
-});
-
