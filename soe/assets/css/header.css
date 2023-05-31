@@ -1,89 +1,19 @@
 .header{
-    position: relative;
-    z-index: 9;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
     background-color: var(--light_purple);
 }
 
-.header .header_content{
-    position: relative;
-    display: flex;
-    height: 100%;
-    width: 62%;
-    flex-direction: row;
-    gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.header .header_datetime{
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    gap: 5%;
-    font-size: 1.5em;
-}
-
-.header .buttons {
-    position: relative;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    /*width: 15%;*/
-    gap: 0.5em;
-    padding-right: 2.5%;
-}
-
-.header p {
-    font-size: 1em;
-    /*font-family: Arial, sans-serif;*/
-}
-
-.header .buttons .row {
-    position: relative;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    flex-direction: row;
-    align-content: flex-end;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*width: 15%;*/
-    gap: 0.5em;
-    padding-right: 2.5%;
-}
-
 .header .buttons .row img {
-    border-radius: 0.5em;
     background-color: var(--white);
-    height: 3em;
 }
 
 .header .header_content .page_icon {
-    position: relative;
-    height: 4em;
     fill: var(--blue);
 }
 
 .header .page_name {
-    position: relative;
     color: var(--white);
-    text-align: left;
-    font-size: 4em;
-    font-weight: bold;
 }
 
 #date, #time{
-    /*font-family: Arial, sans-serif;*/
     color: var(--white);
 }
