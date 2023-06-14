@@ -73,7 +73,7 @@ h1, h2, h3, p, table, .header {
     color: var(--a4);
     margin: 0;
     font-family: fsalbert-regular, sans-serif;
-    /*font-weight: normal;*/
+    font-weight: normal;
     /*font-style: normal;*/
 }
 
