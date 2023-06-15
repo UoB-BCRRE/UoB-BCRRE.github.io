@@ -17,14 +17,14 @@
 }
 
 .welcome_personal img {
-    width: 50%;
-    background-color: var(--a4);
+    width: 75%;
+    /*background-color: var(--a4);*/
     padding: 2em;
     border-radius: 1em;
 }
 
 .welcome_personal p {
-    font-size: 3em;
+    font-size: 4em;
     width: 90%;
 }
 
