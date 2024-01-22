@@ -12,9 +12,9 @@ $(function(){
     $("#news").load(path + "news.html");
 });
 
-$(function(){
-    $("#information").load(path + "information.html");
-});
+// $(function(){
+//     $("#information").load(path + "information.html");
+// });
 
 
 // Lunch and Learn
@@ -43,9 +43,4 @@ $(function(){
     $("#social_calendar").load(path + "social/calendar.html");
     $("#social_next").load(path + "social/next_events.html");
     $("#social_clubs").load(path + "social/clubs.html");
-});
-
-// Departures
-$(function(){
-    $("#departure").load(path + "departures.html");
 });
